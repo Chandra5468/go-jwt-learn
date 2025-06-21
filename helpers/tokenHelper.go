@@ -49,4 +49,8 @@ func GenerateAllTokens(Email, FirstName, LastName, UserType *string) (signedToke
 		return "", "", err
 	}
 
+	refreshClaims := jwt.MapClaims{
+		""
+	}
+
 }
